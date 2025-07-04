@@ -1,0 +1,14 @@
+{
+  "name": "juce-vst-plugin",
+  "version": "1.0.0",
+  "description": "JUCE VST Plugin Template",
+  "main": "index.js",
+  "scripts": {
+    "build": "cmake -S . -B build && cmake --build build",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["juce", "vst", "audio", "plugin"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
